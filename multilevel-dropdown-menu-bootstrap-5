@@ -1,0 +1,56 @@
+import React from 'react'
+
+const Dropdown = () => {
+    return (
+        <>
+            <div className="dropdown ">
+                <button type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                Internship
+                </button>
+                <ul className="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"> Location &raquo;</a>
+                            <ul className='dropdown-menu dropdown-submenu'>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                            </ul>
+                        </li>
+	                    <li><a class="dropdown-item" href="#"> Profile &raquo; </a>
+                            <ul className = "dropdown-menu dropdown-submenu">
+                                <li><a class="dropdown-item" href=""> Third level 1</a></li>
+		                        <li><a class= "dropdown-item" href=""> Third level 2</a></li>
+		                        <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                                
+                            </ul>
+                        </li>
+                    <li><a className="dropdown-item" href="#">Category &raquo;</a>
+                        <ul className = "dropdown-menu dropdown-submenu">
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                            <li><a class="dropdown-item" href=""> Third level 3  </a></li>
+                        </ul>
+                    </li>
+                    
+               </ul>
+            </div>
+        </>
+    )
+}
+
+export default Dropdown
